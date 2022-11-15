@@ -49,7 +49,7 @@ $ejecutar = mysqli_query($conexion, $sql);
 
             <!-- formulario de BOOTSTRAP -->
             
-            <form  action="login.php" method="post" class="row g-3">
+            <form  action="signup.php" method="post" class="row g-3">
                 <div class="col-md-6">
                   <label for="inputEmail4" class="form-label">Correo</label>
                   <input type="email" name="correo" class="form-control" id="inputEmail4" >
@@ -75,37 +75,37 @@ $ejecutar = mysqli_query($conexion, $sql);
                   <select id="inputState" name="estado" class="form-select">
                     <option selected>Escoja una opcion</option>
                     <option value="DIF">Distrito Federal</option>
-	<option value="AGU">Aguascalientes</option>
-	<option value="BCN">Baja California</option>
-	<option value="BCS">Baja California Sur</option>
-	<option value="CAM">Campeche</option>
-	<option value="CHP">Chiapas</option>
-	<option value="CHI">Chihuahua</option>
-	<option value="COA">Coahuila</option>
-	<option value="COL">Colima</option>
-	<option value="DUR">Durango</option>
-	<option value="GTO">Guanajuato</option>
-	<option value="GRO">Guerrero</option>
-	<option value="HGO">Hidalgo</option>
-	<option value="JAL">Jalisco</option>
-	<option value="MEX">M&eacute;xico</option>
-	<option value="MIC">Michoac&aacute;n</option>
-	<option value="MOR">Morelos</option>
-	<option value="NAY">Nayarit</option>
-	<option value="NLE">Nuevo Le&oacute;n</option>
-	<option value="OAX">Oaxaca</option>
-	<option value="PUE">Puebla</option>
-	<option value="QRO">Quer&eacute;taro</option>
-	<option value="ROO">Quintana Roo</option>
-	<option value="SLP">San Luis Potos&iacute;</option>
-	<option value="SIN">Sinaloa</option>
-	<option value="SON">Sonora</option>
-	<option value="TAB">Tabasco</option>
-	<option value="TAM">Tamaulipas</option>
-	<option value="TLX">Tlaxcala</option>
-	<option value="VER">Veracruz</option>
-	<option value="YUC">Yucat&aacute;n</option>
-	<option value="ZAC">Zacatecas</option>
+	                  <option value="AGU">Aguascalientes</option>
+	                  <option value="BCN">Baja California</option>
+                    <option value="BCS">Baja California Sur</option>
+                    <option value="CAM">Campeche</option>
+                    <option value="CHP">Chiapas</option>
+                    <option value="CHI">Chihuahua</option>
+                    <option value="COA">Coahuila</option>
+                    <option value="COL">Colima</option>
+                    <option value="DUR">Durango</option>
+                    <option value="GTO">Guanajuato</option>
+                    <option value="GRO">Guerrero</option>
+                    <option value="HGO">Hidalgo</option>
+                    <option value="JAL">Jalisco</option>
+                    <option value="MEX">M&eacute;xico</option>
+                    <option value="MIC">Michoac&aacute;n</option>
+                    <option value="MOR">Morelos</option>
+                    <option value="NAY">Nayarit</option>
+                    <option value="NLE">Nuevo Le&oacute;n</option>
+                    <option value="OAX">Oaxaca</option>
+                    <option value="PUE">Puebla</option>
+                    <option value="QRO">Quer&eacute;taro</option>
+                    <option value="ROO">Quintana Roo</option>
+                    <option value="SLP">San Luis Potos&iacute;</option>
+                    <option value="SIN">Sinaloa</option>
+                    <option value="SON">Sonora</option>
+                    <option value="TAB">Tabasco</option>
+                    <option value="TAM">Tamaulipas</option>
+                    <option value="TLX">Tlaxcala</option>
+                    <option value="VER">Veracruz</option>
+                    <option value="YUC">Yucat&aacute;n</option>
+                    <option value="ZAC">Zacatecas</option>
                   </select>
                 </div>
                 <div class="col-md-2">
